@@ -1,0 +1,85 @@
+{
+  "url_login": "https://pt.pornhubpremium.com/premium/login",
+  "wait_time_login": 9000,
+  "wait_time_between_steps": 9000,
+  "minutes_wait_timeout": 3,
+  "on_success_login": [
+    {
+      "findBy": "ID",
+      "id_Element": "searchInput",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "status_element": "Displayed",
+      "position_in_NodeElements": 0
+    }
+  ],
+  "login_process": [
+    {
+      "step": 1,
+      "operation": "FindElementByID",
+      "id_Element": "username",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 2,
+      "operation": "FindElementByID",
+      "id_Element": "username",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "SendKeys",
+      "sendKeys_UserOrEmail": true,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 3,
+      "operation": "FindElementByID",
+      "id_Element": "password",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 4,
+      "operation": "FindElementByID",
+      "id_Element": "password",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "SendKeys",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": true
+    },
+    {
+      "step": 5,
+      "operation": "FindElementByID",
+      "id_Element": "submitLogin",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    }
+  ]
+}

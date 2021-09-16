@@ -1,0 +1,85 @@
+{
+  "url_login": "https://www.spotify.com/br/account/overview/",
+  "wait_time_login": 30000,
+  "wait_time_between_steps": 9000,
+  "minutes_wait_timeout": 3,
+  "on_success_login": [
+    {
+      "findBy": "X Path",
+      "id_Element": "",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "/html/body/div[1]/div/div/div[2]/div[3]/div[2]/div/article[2]/section/div/div[2]/div/div[2]/div[2]/div/h3",
+      "status_element": "Displayed",
+      "position_in_NodeElements": 0
+    }
+  ],
+  "login_process": [
+    {
+      "step": 1,
+      "operation": "FindElementByID",
+      "id_Element": "login-username",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 2,
+      "operation": "FindElementByID",
+      "id_Element": "login-username",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "SendKeys",
+      "sendKeys_UserOrEmail": true,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 3,
+      "operation": "FindElementByID",
+      "id_Element": "login-password",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 4,
+      "operation": "FindElementByID",
+      "id_Element": "login-password",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "SendKeys",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": true
+    },
+    {
+      "step": 5,
+      "operation": "FindElementByID",
+      "id_Element": "login-button",
+      "class_Name_Element": "",
+      "name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    }
+  ]
+}

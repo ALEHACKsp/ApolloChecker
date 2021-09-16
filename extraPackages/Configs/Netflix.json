@@ -1,0 +1,91 @@
+{
+  "url_login": "https://www.netflix.com/login",
+  "wait_time_login": 15000,
+  "wait_time_between_steps": 15000,
+  "minutes_wait_timeout": 59,
+  "on_login_success": [
+    {
+      "findBy": "Class Name",
+      "id_Element": "",
+      "class_Name_Element": "profile-gate-label",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "status_element": "Displayed",
+      "position_in_NodeElements": 0
+    }
+  ],
+  "login_process": [
+    {
+      "step": 1,
+      "operation": "FindElementsByClassName",
+      "id_Element": "",
+      "class_Name_Element": "placeLabel",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 2,
+      "operation": "FindElementByID",
+      "id_Element": "id_userLoginId",
+      "class_Name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 3,
+      "operation": "FindElementByID",
+      "id_Element": "id_userLoginId",
+      "class_Name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "SendKeys",
+      "sendKeys_UserOrEmail": true,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 4,
+      "operation": "FindElementByID",
+      "id_Element": "id_password",
+      "class_Name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    },
+    {
+      "step": 5,
+      "operation": "FindElementByID",
+      "id_Element": "id_password",
+      "class_Name_Element": "",
+      "css_Selector_Element": "",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "SendKeys",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": true
+    },
+    {
+      "step": 6,
+      "operation": "FindElementsByCssSelector",
+      "id_Element": "",
+      "class_Name_Element": "",
+      "css_Selector_Element": "button.btn:nth-child(3)",
+      "x_path_Element": "",
+      "position_in_NodeElements": 0,
+      "event_in_Element": "Click",
+      "sendKeys_UserOrEmail": false,
+      "sendKeys_Password": false
+    }
+  ]
+}
